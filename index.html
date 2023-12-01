@@ -8,7 +8,7 @@
 </head>
 <body>
     <!--Barra de Navegação-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html" style="color:lightskyblue">HTML Solutions</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,23 +27,25 @@
                   Portfólio
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Site 1</a></li>
-                  <li><a class="dropdown-item" href="#">Site 2</a></li>
+                  <li><a class="dropdown-item" href="pagina1.html">Site 1</a></li>
+                  <li><a class="dropdown-item" href="pagina2.html">Site 2</a></li>
                   <!--<li><hr class="dropdown-divider"></li>-->
-                  <li><a class="dropdown-item" href="#">Site 3</a></li>
+                  <li><a class="dropdown-item" href="pagina3.html">Site 3</a></li>
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-                <button class="btn btn-info" type="submit">Contato</button>
+            <form class="nav-item">
+                <a class="btn btn-info" href="contato.html">Contato</a>
             </form>
           </div>
         </div>
     </nav>
 
     <br>
+    <br>
+    <br>
+    <br>
 
-    <!--Perfil-->
     <div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
@@ -55,11 +57,13 @@
     
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Sobre a HTML Solutions</h2>
+            <br>
+            <p class="lead" style="text-align: justify;">A HTML Solutions é uma empresa inovadora no mercado de desenvolvimento web, atuando com excelência desde 2010. Ao longo dos anos, conquistamos nossa reputação fornecendo soluções web de alta qualidade. Nossa equipe altamente qualificada é composta por profissionais dedicados, apaixonados por tecnologia e comprometidos com o sucesso de nossos clientes.</p>
           </div>
           <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+            <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>-->
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" src="imagem1.jpg" alt="Imagem 1" style="width: 350px; height: 200px;">
           </div>
         </div>
     
@@ -67,11 +71,13 @@
     
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Nossos Serviços</h2>
+            <br>
+            <p class="lead" style="text-align: justify;">Descubra o que a HTML Solutions pode fazer por você! Oferecemos uma ampla gama de serviços, desde o desenvolvimento de sites elegantes até a criação de soluções web personalizadas. Confira nossos planos exclusivos e promoções especiais para garantir uma presença online única e eficaz para o seu negócio.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+            <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>-->
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" src="imagem2.jpg" alt="Imagem 2" style="width: 350px; height: 200px;">
           </div>
         </div>
     
@@ -79,11 +85,13 @@
     
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Explore Nosso Portfólio</h2>
+            <br>
+            <p class="lead" style="text-align: justify;">Convidamos você a explorar nossa galeria de projetos anteriores. No nosso portfólio, você encontrará uma variedade de sites e soluções web que demonstram nossa paixão pelo design criativo e desenvolvimento eficiente. Veja por si mesmo a qualidade excepcional que oferecemos aos nossos clientes.</p>
           </div>
           <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+            <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>-->
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" src="imagem3.jpg" alt="Imagem 3" style="width: 350px; height: 200px;">
           </div>
         </div>
     
@@ -91,12 +99,14 @@
     
         <!-- /END THE FEATURETTES -->
 
+        <!--Perfil-->
+
         <div class="col-lg-6">
             <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
             <h2 class="fw-normal">Lucas Machado</h2>
             <h3>Programador WEB</h3>
             <br>
-            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            <p style="text-align: justify;">Com uma paixão inabalável pelo desenvolvimento web, Lucas Machado é um programador talentoso e inovador na equipe da HTML Solutions. Sua habilidade excepcional em criar soluções web eficientes e elegantes é evidente em cada projeto que ele aborda. Além de seu comprometimento com a excelência técnica, Lucas é conhecido por sua abordagem criativa e pela capacidade de transformar as visões dos clientes em realidade digital.</p>
             <p><a class="btn btn-secondary" href="#">Currículo »</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-6">
@@ -104,7 +114,7 @@
             <h2 class="fw-normal">Vinicius Zart</h2>
             <h3>Programador WEB</h3>
             <br>
-            <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+            <p style="text-align: justify;">Vinicius Zart é um programador versátil e dedicado que desafia constantemente os limites da criatividade e funcionalidade. Sua experiência sólida em desenvolvimento web e paixão por soluções inovadoras o destacam como uma peça fundamental na equipe da HTML Solutions. Vinicius é reconhecido por sua capacidade de enfrentar desafios complexos com uma mentalidade analítica e pela entrega consistente de projetos de alta qualidade.</p>
             <p><a class="btn btn-secondary" href="#">Currículo »</a></p>
           </div><!-- /.col-lg-4 -->
     
